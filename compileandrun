@@ -1,1 +1,2 @@
-gcc main.c struct.c -o main && ./main
+gcc src/main.c -Wformat-truncation=0 src/struct.c src/log.c -o bin/main && 
+bin/main
